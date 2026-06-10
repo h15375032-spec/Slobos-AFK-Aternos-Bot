@@ -19,46 +19,46 @@
   },
   "utils": {
     "auto-auth": {
-      "enabled": false,
+      "enabled": true,
       "password": "chalol78"
     },
     "anti-afk": {
-      "enabled": false,
-      "sneak": false
+      "enabled": true,
+      "sneak": true
     },
     "chat-messages": {
-      "enabled": false,
+      "enabled": true,
       "repeat": false,
-      "repeat-delay": 12000,
+      "repeat-delay": 1200,
       "messages": [
         "I'm a regular player",
         "Subscribe to Slobos!",
         "I like to play Minecraft!"
       ]
     },
-    "chat-log": false,
-    "auto-reconnect": false,
+    "chat-log": true,
+    "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 120000
   },
   "movement": {
-    "enabled": false,
+    "enabled": true,
     "circle-walk": {
-      "enabled": false,
+      "enabled": true,
       "radius": 4,
       "speed": 3000
     },
     "look-around": {
-      "enabled": false,
+      "enabled": true,
       "interval": 5000
     },
     "random-jump": {
-      "enabled": false,
+      "enabled": true,
       "interval": 10000
     }
   },
   "modules": {
-    "avoidMobs": false,
+    "avoidMobs": true,
     "combat": false,
     "beds": false,
     "chat": false,
@@ -66,7 +66,7 @@
   },
   "combat": {
     "attack-mobs": false,
-    "auto-eat": false
+    "auto-eat": true
   },
   "beds": {
     "pick-up-day": false,
